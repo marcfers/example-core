@@ -8,12 +8,12 @@
 	<name>example-parent</name>
 	<description>example-parent</description>
 	<organization>
-		<name>PRIN S.A.</name>
-		<url>http://www.prin.com.br</url>
+		<name>EXAMPLE S.A.</name>
+		<url>https://www.example.com.br</url>
 	</organization>
 	<developers>
 	<developer>
-		<name>Prin</name>
+		<name>Example</name>
 	</developer>
 	</developers>
 	<properties>
