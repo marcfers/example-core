@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  hcm_postgres:
+    image: postgres
+    container_name: hcm_postgres
+    ports:
+        - "5432:5432"
+    environment:
+        POSTGRES_PASSWORD: admin
+    volumes:
+        - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+    external: true
+
